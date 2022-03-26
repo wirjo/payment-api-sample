@@ -3,6 +3,7 @@
 A demonstrative pattern for a light-weight payment API using Typescript:
  
 * `class-validator` and `class-transformer` used to handle validation logic as inspired by NestJS
+* Singleton pattern used for `AuthService` for persistence
 * TODO: Write unit tests (*.spec.ts) for greater reliability
 * TODO: For some reason, errors are not being returned by controller if thrown in a Promise with async await
 
